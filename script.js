@@ -1,8 +1,11 @@
+// FUNCTION
+
 function printHello() {
     console.log('Hello there!');
 }
 
 printHello();
+
 
 // var age = 10;
 // var myName = 'Eric';
