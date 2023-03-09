@@ -1,3 +1,9 @@
+function printHello() {
+    console.log('Hello there!');
+}
+
+printHello();
+
 // var age = 10;
 // var myName = 'Eric';
 
@@ -46,3 +52,12 @@ names.push('joe'); /* adds to array */
 names.unshift('Cassandra'); /* adds item to beginning of array */
 
 console.log(names);
+
+// FOR LOOP
+
+     //counter; condition; incrementor
+for (var count = 0; count <= 10; count += 2) {
+    console.log(count);
+};
+
+// += operator sets the value equal to itself (plus/minus/times/devided-by) the incremental value
